@@ -1,0 +1,23 @@
+CREATE TABLE `Dates` (
+  `date_id` INT,
+  `date` DATE,
+  `day_of_week` STRING,
+  `holiday` BOOLEAN,
+  PRIMARY KEY (`date_id`)
+);
+
+CREATE TABLE `Incidents` (
+  `incident_id` INT,
+  `category` STRING,
+  `description` STRING,
+  `resolution` STRING,
+  `longitude` FLOAT,
+  `latitude` FLOAT,
+  `timestamp` TIMESTAMP,
+  `date_id` INT,
+  PRIMARY KEY (`incident_id`),
+  FOREIGN KEY (`date_id`)
+      REFERENCES `Dates`(`date_id`)
+);
+
+
