@@ -1,5 +1,6 @@
 # Entity‑Relationship Diagram (ERD) & DDL  
 **By: Taran Schlichtmann**
+
 **Date: 11/07/2025**
 
 Data Modeling and Schema Design Using Snowflake Standards
