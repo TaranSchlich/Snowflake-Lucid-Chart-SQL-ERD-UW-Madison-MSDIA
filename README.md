@@ -1,6 +1,7 @@
 # Entity‑Relationship Diagram (ERD) & DDL  
 **By: Taran Schlichtmann**
 **Date: 11/07/2025**
+
 Data Modeling and Schema Design Using Snowflake Standards
 
 Focused on designing a normalized data model, constructing an ERD using crow’s foot notation, and generating Snowflake‑compatible DDL. The assignment uses crime data from San Francisco and emphasizes clean schema design, proper key structure, and accurate data types.
